@@ -3,8 +3,17 @@
     padding:0;
 }
 body{
-    background-color: blueviolet;
+    background-color:blueviolet;
     text-align: center;
+}
+h1{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    border-color: white;
+    border-radius: 2rem;
+    justify-content: center;
 }
 .container{
     height:70vh;
@@ -30,6 +39,7 @@ body{
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
     font-size:8vmin;
     color:black;
+    background-color: azure;
 }
 #reset{
     padding:1 rem;
@@ -37,4 +47,31 @@ body{
     background-color:pink;
     border-radius: 0.5rem;
     border-width: 0.25rem;
+    display: flex;
+    vertical-align: auto;
+   
+}
+    
+.hide{
+    display: none;
+}
+.msg_container{
+    
+    height:200vmin;
+}
+#msg{
+  color: rgb(228, 255, 25);
+  font-size:18vmin
+}
+#new_game{
+    color:rgb(4, 58, 4);
+    text-decoration:solid;
+    
+    padding:1 rem;
+    /* font-size:1.25 rem; */
+    font-size:50px;
+    background-color:pink;
+    border-radius: 0.5rem;
+    border-width: 0.25rem;
+
 }
